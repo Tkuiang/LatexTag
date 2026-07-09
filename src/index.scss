@@ -1,0 +1,48 @@
+.latextag-toolbar {
+    color: var(--b3-theme-on-surface) !important;
+
+    svg,
+    use {
+        color: currentColor !important;
+        fill: currentColor !important;
+    }
+}
+
+.latextag-toolbar--enabled {
+    color: var(--b3-theme-primary) !important;
+
+    svg,
+    use {
+        color: var(--b3-theme-primary) !important;
+        fill: var(--b3-theme-primary) !important;
+    }
+}
+
+.latextag-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.latextag-settings__item {
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+}
+
+.latextag-settings__title,
+.latextag-settings__desc {
+    display: block;
+}
+
+.latextag-settings__title {
+    color: var(--b3-theme-on-background);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.latextag-settings__desc {
+    color: var(--b3-theme-on-surface);
+    font-size: 12px;
+    line-height: 18px;
+}

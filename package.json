@@ -1,0 +1,33 @@
+{
+  "name": "latextag",
+  "version": "0.1.0",
+  "description": "Automatically number SiYuan display math blocks with LaTeX tags.",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build:dev": "pnpm run check && vite build --mode development && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-dev-assets.ps1",
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-dev-assets.ps1 && vite build --watch --mode development",
+    "build": "pnpm run check && vite build --mode production",
+    "package": "pnpm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  },
+  "keywords": [
+    "siyuan",
+    "latex",
+    "math",
+    "formula",
+    "tag"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@11.4.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "sass": "^1.100.0",
+    "siyuan": "1.2.2",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.3"
+  }
+}

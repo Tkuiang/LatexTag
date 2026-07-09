@@ -1,0 +1,38 @@
+{
+  "name": "LatexTag",
+  "author": "Tkuiang",
+  "url": "https://github.com/Tkuiang/LatexTag",
+  "version": "0.1.0",
+  "minAppVersion": "3.7.0",
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window",
+    "browser-desktop"
+  ],
+  "disabledInPublish": false,
+  "displayName": {
+    "default": "LaTeX Tag",
+    "zh-CN": "LaTeX 公式编号"
+  },
+  "description": {
+    "default": "Automatically number display math blocks in the current SiYuan document.",
+    "zh-CN": "自动为当前思源文档中的块级公式添加和修正 LaTeX 编号。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
+  },
+  "funding": {
+    "custom": []
+  },
+  "keywords": [
+    "latex",
+    "math",
+    "formula",
+    "tag",
+    "公式编号"
+  ]
+}

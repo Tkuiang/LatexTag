@@ -19,7 +19,7 @@
   ],
   "author": "Tkuiang",
   "license": "MIT",
-  "packageManager": "pnpm@11.4.0",
+  "packageManager": "pnpm@11.7.0",
   "engines": {
     "node": ">=22.0.0"
   },
